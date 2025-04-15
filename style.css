@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(54, 174, 221);
+}
+
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color:#2d4d8b;
+    margin-top: -10px;
+    margin-left: -10px;
+    padding: 0px;
+}
+#text{
+    position: absolute;
+    font-size: 3em;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    width: 100vw;
+    height: 100vh;
+}
+.transition{
+    position: relative;
+    padding: 100px;
+    background-color: rgb(54, 174, 221);
+}
+#cave{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    width: 100vw;
+    height: 100vh;
+}
+#profesi{
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.transition h1{
+    font-size: 8vh;
+    padding: 10px;
+    color: white;
+    animation: fadeIn 5s;
+    text-align: center;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin: 20vh;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+#profesi h2{
+    font-size: 5vh;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 10px rgb(48, 44, 44);
+    border-color: black;
+    border-width: 10px;
+    margin: 10px;
+
+    
+}
+#profesi h2:hover{
+    font-size: 8vh; 
+    background-color: rgb(37, 37, 109);
+}
+#icon{
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#icon img{
+    width: 20vw;
+    height: 30vh;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px goldenrod;
+
+}
+#icon img:hover{
+    width: 25vw;
+    height: 35vh;
+
+}
+#project h1{
+    font-size: 15vh;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+#portofolio h1{
+    font-size: 15vh;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+#link h2{
+    font-size: 10vh;
+    padding: 10px;
+    background-color: rgb(240, 238, 134);
+    border-radius: 10px;
+    box-shadow: 5px 10px rgb(32, 71, 63);
+    border-color: rgb(212, 171, 36);
+    border-width: 10px;
+    margin: 10px;
+    columns: rgb(44, 56, 44);
+    margin: 5px;
+
+    
+}
+#link h2:hover{
+    font-size: 12vh;
+    background-color: #2d4d8b;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
